@@ -6,6 +6,7 @@ dependencies:
   - pytest
   # Other (remove and add as needed)
   - jupyter
+  - nb_conda_kernels
   - jupyterlab
   - xarray
   - numpy
@@ -13,4 +14,7 @@ dependencies:
   - dask
   - netcdf4
   - pandas
-  - matplotlib
+  - matplotlib=3.3.0
+  - seaborn
+  - cartopy
+  - scikit-learn
